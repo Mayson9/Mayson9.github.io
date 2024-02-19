@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1f2641;
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 76%;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 6rem 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 2.0rem;
+}
+
+h3 {
+    font-size: 1.6rem
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+a {
+    color: #fff;
+}
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: all 400ms ease;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-primary {
+    background-color: #f75842;
+    color: #fff;
+}
+
+nav {
+    background: #6c63ff;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+
+.nav__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav__menu a {
+    font-size: 0.9rem;
+    transition: all 400ms ease; 
+}
+
+.nav__menu a:hover {
+    color: #424890;
+}
+
+
+header {
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 70vh;
+    margin-bottom: 5rem;
+}
+
+.header__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+
+.header__container h1 {
+    text-align: center;
+}
+
+.header__container p {
+    margin: 1rem 0 2.2rem;
+    line-height: 1.55;
+}
+
+.categories {
+    background: #2e3267;
+    height: 45rem;
+}
+
+.categories-left h2 {
+    text-align: start;
+    margin-bottom: 3rem;
+    line-height: 1;
+    margin-top: 6rem;
+}
+
+.categories__container {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.categories-left p {
+    margin: 1rem 0 3rem;
+}
+
+.categories-right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+    margin-top: 6rem;
+}
+
+.categories-right img{
+    width: 1rem;
+    display: inline;
+}
+
+.category {
+    background: #424890;
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: all 400ms ease;;
+}
+
+.category p {
+    margin-bottom: 0.3rem;
+}
+
+.category:hover {
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.category:nth-child(2) .category-icon {
+    background: #f75842;
+}
+
+.category:nth-child(4) .category-icon {
+    background: #f75842;
+}
+
+.category:nth-child(3) .category-icon {
+    background: #00bf8e;
+}
+
+.category:nth-child(5) .category-icon {
+    background: #00bf8e;
+}
+
+.category:nth-child(7) .category-icon {
+    background: #00bf8e;
+}
+
+
+.category:nth-child(9) .category-icon {
+    background: #f75842;
+}
+
+.categories-left {
+    margin-right: 4rem;
+}
+
+.category-icon {
+    background: #6c63ff;
+    padding: 0.7rem;
+    border-radius:  0.9rem;
+}
+
+.category h5 {
+    margin: 2rem 0 1rem;
+    font-size: 0.9rem;
+}
+
+.faqs {
+    margin-top: 18rem;
+}
+
+.faqs__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.faq {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    height: fit-content;
+    background: #6c63ff;
+    height: 14rem;
+}
+
+.faq h4 {
+    font-size: 1rem;
+    line-height: 2.2;
+}
+
+.faq p {
+    margin: 0.8rem;
+}
+
+footer {
+    background: #2e3267;
+    padding: 5rem 0 3rem;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+
+.footer__container h4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.footer__1 p {
+    margin: 0 0 2rem;
+}
+
+footer ul li {
+    margin-bottom: 0.7rem;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer__socials {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+
+.footer__1{
+    text-align: center;
+}
+
+.footer__2 {
+    text-align: center ;
+}
+
+.footer__3 {
+    text-align: center;
+}
